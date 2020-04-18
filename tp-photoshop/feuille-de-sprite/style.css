@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul.logo{
+    display: block;
+    list-style: none;
+}
+ul.logo li a{
+    display: block;
+    float: left;
+    background: url(img/pictogr.png) 0 0 no-repeat;
+    height:50px;
+    text-indent: -3000px;
+}
+
+ul.logo li#picto1 a{
+    width: 50px;
+    background-position: 0px 0px;
+    transition: 1s;
+}
+
+ul.logo li#picto1 a:hover{
+   
+    background-position: 0px -50px;
+
+}
+
+
+ul.logo li#picto2 a{
+    width: 50px;
+    background-position: -50px 0;
+    transition: 1s;
+}
+
+ul.logo li#picto2 a:hover{
+   
+    background-position: -50px -50px;
+
+}
+ul.logo li#picto3 a{
+    width: 50px;
+    background-position: -100px 0;
+    transition: 1s;
+}
+
+ul.logo li#picto3 a:hover{
+   
+    background-position: -100px -50px;
+
+}
+
+
+
+
+
+/* .picto li.picto2{
+    background-position: 50px 0px;
+}
+.picto li.picto2:hover{
+  background-position: 50px 50px;
+}
+.picto li:hover{
+    background-image: url(img/pictogr.png);
+    background-repeat: no-repeat;
+}
+ .picto li:hover{
+  background-position: 0px -50px;
+} 
+
+.picto li.picto3:hover{
+    height: 50px;
+    width: 50px;
+  background-position: -100px 0px;
+}
+
+ .picto2{
+    background: url(img/pictogramme.gif) 0 0 no-repeat;
+ 
+    background-position:50px 100px;
+} */ 
