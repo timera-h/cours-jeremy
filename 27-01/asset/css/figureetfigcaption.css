@@ -1,0 +1,55 @@
+*   {margin: 0;
+    padding: 0;
+box-sizing:border-box}
+
+main{
+width: 1240px;
+margin: auto}
+
+figure{
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer
+}
+
+figcaption{ 
+    width: 100%;
+    height: 200px;
+    background: rgba(0,0,0,.5);
+    position: absolute;
+    color: white;
+    text-align: center;
+    line-height:50%;
+    font-size: 20px;
+} 
+
+figure:first-child figcaption{ 
+    left: 300px;
+    transition: left 1s}
+
+figure:nth-child(2) figcaption{
+    top:300px;
+    transition: top 1s}
+
+figure:nth-child(3) figcaption{
+    bottom: 200px;
+    transition: top 1s}
+*/
+figure:last-child figcaption{
+    top:0;
+    right: 300px;
+    transition: right 1s
+    
+}
+/*
+    transition-property: top;
+    transition-duration: 1s
+*/
+figure:first-child:hover figcaption{left:0;}
+figure:nth-child(2):hover figcaption{top: 0;}
+figure:nth-child(3):hover figcaption{bottom: 0;}
+figure:last-child:hover figcaption{right: 0;}

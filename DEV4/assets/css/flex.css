@@ -1,0 +1,39 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+main{width: 100%;
+min-height: 100vh;
+height: 100vh;
+background: greenyellow;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+section{width: 80%;
+min-height: 400px;
+background: orange;
+display: flex;
+flex-wrap: wrap;
+}
+
+section > article{width: 33.33%;
+height: 400px;
+min-width: 320px;
+border: 1px solid black;
+background: yellow;
+flex: 1;
+}
+
+section article:first-child {background: orange;
+order:2;}
+
+div{position:fixed;
+top:36vh;
+width: 200px;
+height: 200px;
+background: red;}
+
+p{font-size:20px;
+color: black;}

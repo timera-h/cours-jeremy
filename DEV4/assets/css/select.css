@@ -1,0 +1,54 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+    main#wrap{width:800px ;
+        margin:auto}
+
+    article.toto{min-height:200px;
+        min-width: 880px;
+    margin: auto;}
+
+    /* selecteur d'enfants direct----  div parent> de p pour ciblé p (qd la p est a l'interieur de la div) */
+    /* div >p{color:red} */
+    
+    /* selecteur adjacent ----tout les paragraphe apres la fermeture dune div il prendra que la premiere balise (qd la p est a l'exterieur de la div) */
+    div + p{color: seagreen;}
+
+    /* combinateur de frère (les deux p sont freres) */
+    /* article.toto ~ p{color:orange} */
+
+    /* selecteur d'attribut */
+    a[title]{text-decoration: none; color:fuchsia}
+    
+    /* a[href="http://www.simplon.org"]{text-decoration: none;
+    color:burlywood} */
+    
+        /* ^ le carrée il cible tout les autres elements  des quil y a .co exemple.com */
+        /* a[href^="http://www.simplon"]{text-decoration: none;
+            color:burlywood} */
+
+/* ont combine les enfants avec un selecteur d'attribut  */
+            li > a[href^="#debut"]{
+                text-decoration: none;
+                display: block;
+                padding: 20px;
+                border:1px solid black;
+                background: red;
+                color:white;
+                width: 200px;
+                text-align: center;
+            }
+
+            /* ce selecteur vous peremet de cibler les freres et soeurs */
+            /* even et 2n = paire odd et 2n+1 = impaire  entre les freres et les soeurs*/
+            p:nth-of-type(odd){font-weight:bold; color: red }
+
+            /* nth child cible les enfants entre le enfants seulement  */
+            main#wrap div:first-child{background: yellow;
+            min-width: 80px; min-height: 80px;}
+
+            i.fab {
+                border: 1px solid red;
+                font-size: 30px;
+              }

@@ -1,0 +1,9 @@
+main {
+    width: 100%;
+    background: white
+}
+main{width: 600px;
+ height: 500px;
+        background: blue;
+        position: relative;
+        margin:5% auto 0}

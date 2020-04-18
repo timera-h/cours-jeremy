@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200 60" style="enable-background:new 0 0 200 60;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:#FFFF00;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st2{stroke:#FFFF00;stroke-width:0.5;stroke-miterlimit:10;}
+	.st3{fill:#FF6633;}
+	.st4{font-family:'Pacifico-Regular';}
+	.st5{font-size:36px;}
+	.st6{stroke:#FFFF00;stroke-miterlimit:10;}
+	.st7{fill:#FF6633;stroke:#000000;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M73.5-9.5"/>
+<g>
+	<rect x="16" y="22" width="64" height="33"/>
+	<rect x="3" y="0.7" class="st1" width="25" height="58.3"/>
+	<rect x="70" y="17" class="st1" width="130" height="43"/>
+	<rect x="47" y="1" class="st2" width="88" height="42"/>
+	<text transform="matrix(0.9756 0 0 1 48.0835 41.7217)"><tspan x="0" y="0" class="st3 st4 st5">Yoga</tspan><tspan x="80.6" y="0" class="st6 st4 st5">.</tspan><tspan x="89.9" y="0" class="st3 st4 st5">Com</tspan></text>
+	<path class="st7" d="M4,14C5,13,17,4,17,4l16,22L23,40L4,14z"/>
+	<polygon class="st1" points="16.1,20.4 8,27 22.5,51.9 40,39 	"/>
+	<polygon class="st7" points="18,35 11,40 25,58 40,48 	"/>
+</g>
+</svg>

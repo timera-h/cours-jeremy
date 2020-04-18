@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+ {
+  animation: 3s absolute alternate slidein;
+}
+@keyframes tourner {
+
+    0% {
+        top: 0;
+        left: 0;
+    }
+
+    25% {
+        top: 0;
+        left: 0
+    }
+
+    45%{
+        top: 0;
+        left: 0
+    }
+
+   100% {
+        top: 0;
+        left: 0
+    }   
+       
+    
+    main {
+    width: 1240px;
+    margin: auto   }}
+       
+ figure:first-child main {
+    top: 30;
+    left: 30;
+    transition: left 1s;
+    z-index:1;
+    position: absolute
+        
+}
+
+figure:nth-child(2) main {
+    top:0;
+    transition: top 1s;
+    z-index: 2;
+    position: absolute
+}
+    figure:last-child main {
+    top: 100;
+    right: 100;
+    transition: right 1s;
+     z-index: 1;
+    position: absolute

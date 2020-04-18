@@ -1,0 +1,51 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+body{background:pink}
+section{width: 100%}
+h1{text-align: center;}
+/* version ordinateur de bureau */
+
+@media screen and (min-width: 1024px){
+    
+    article{width: 33.33%;
+    min-height: 400px;
+    border:1px solid black;
+    float: left;
+}
+section article:nth-child(2) h2{visibility: hidden;}
+}
+
+
+
+/* version tablette et ordinateur portable */
+
+@media screen and (min-width: 680px) and (max-width:1023px){
+    
+    
+        article{width: 50%;
+        min-height: 400px;
+        border:1px solid black;
+        float: left;
+    }
+    article:last-child{width: 100%;}
+    section article:nth-child(2) h2{visibility: visible;}
+
+   
+}
+
+
+
+/* version smartphone */
+
+@media screen and (max-width:679px){
+
+ 
+        article{width: 100%;
+        min-height: 400px;
+        border:1px solid black;
+    }
+    section article:first-child(2) h2{visibility: hidden;}
+
+}

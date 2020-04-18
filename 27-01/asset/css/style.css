@@ -1,0 +1,14 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box}
+
+header{
+width: 100%;
+background: grey}
+
+.ecran{max-height: 400px}
+
+main{background: red}
+section{background: white}
+article{border: 1px solid black;
+height: 500px}
